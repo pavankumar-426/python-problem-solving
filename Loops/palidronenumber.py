@@ -14,3 +14,4 @@ for i in range(start, end + 1): #10 11 12 13 14 15 16 17
 
     if temp == r:
         print(temp, end=" ")
+ 

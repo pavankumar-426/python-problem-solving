@@ -2,7 +2,7 @@ n=input()
 vowels=0
 consonats=0
 for i in n:
-    if i=="aeiou" or  i=="AEIOU":
+    if i in"aeiouAEIOU":
         vowels=vowels+1
     else:
         consonats=consonats+1
